@@ -1,0 +1,18 @@
+<a class="navbar-brand font" href="#">Touch</a>
+<div class="btn-group" role="group">
+  <%if (title !== 'Our home is here') { %>
+      <a href="/" class="btn btn-default down"><i class="glyphicon glyphicon-home"></i> home</a>
+      <a href="/about" class="btn btn-default down"><i class="glyphicon glyphicon-info-sign"></i> about</a>
+  <% } else { %>
+      <a href="#" class="btn btn-default down"><i class="glyphicon glyphicon-headphones"></i></a>
+      <a href="/" class="btn btn-default down"><i class="glyphicon glyphicon-home"></i> home</a>
+      <a href="/about" class="btn btn-default down"><i class="glyphicon glyphicon-info-sign"></i> about</a>
+  <% } %>
+</div>
+
+<form class="navbar-form navbar-right right" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>

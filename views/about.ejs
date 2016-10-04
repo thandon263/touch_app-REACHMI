@@ -1,0 +1,25 @@
+  <% include partials/pages/head.ejs %>
+  <body class="content container">
+    <nav class="navbar navbar-inverse">
+      <% include partials/pages/navigation.ejs %>
+    </nav>
+    <h1 class="panel panel-header"><i>...<%= title %></i></h1>
+
+    <article class="main_content col-md-6">
+      <% include partials/pages/content.ejs %>
+    </article>
+
+    <article class="main_content col-md-6">
+      <img src="/images/teekay_photos/img_2.jpg" alt="Teekay's Photos" class="medium radius">
+    </article>
+
+    <article class="main_content col-md-12">
+      <% include partials/pages/content.ejs %>
+    </article>
+
+
+    <% include partials/pages/jsdefault.ejs %>
+  </body>
+  <div class="footer">
+    <% include partials/pages/footer.ejs %>
+  </div>
